@@ -1,0 +1,23 @@
+.my-joke {
+    width: 50rem;
+}
+.joke-container {
+  display: flex;
+  flex-wrap: wrap;
+  .card {
+    margin: 10px 10px;
+  }
+  .card-header {
+    background-color: #233142 !important;
+    color: white;
+    span {
+      float: right;
+      font-size: .8rem;
+    }
+  }
+}
+
+// .icon {
+//   height:32px;
+//   width:32px;
+// }

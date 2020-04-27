@@ -1,0 +1,31 @@
+.add-joke {
+    &:hover {
+      background-color: red;
+      transition: 2s;
+    }
+}
+
+.button-container {
+  .fa {
+    font-size: 24px;
+    margin: 0 5px;
+  }
+}
+.act-button {
+  height: 1.5rem;
+  width: 4.5rem;
+  margin-left: 15px;
+  &:hover {
+    cursor: pointer;
+    transition: 2s;
+    background-color: #FFDAB9;
+  }
+}
+.add-joke-btn {
+  background-color:#233142 !important;
+}
+
+.my-profile-button {
+  height: 2.3rem !important;
+  width: 40%!important;
+}

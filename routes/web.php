@@ -13,10 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
+Route::get('/', 'JokeController@index')->name('jokes');
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/jokes', 'JokeController@store');
+Route::get('/jokes/create', 'JokeController@create');
+Route::post('/jokes/{id}/act', 'JokeController@actOnChirp');
+
+
+Route::get('/users/{id}', 'UsersController@user');

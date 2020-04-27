@@ -4,5 +4,10 @@
 // Variables
 @import 'variables';
 
+// Partials
+@import '_joke';
+@import '_header';
+@import '_buttons';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';

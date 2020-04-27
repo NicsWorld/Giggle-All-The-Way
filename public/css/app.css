@@ -1,5 +1,63 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+.my-joke {
+  width: 50rem;
+}
+
+.joke-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.joke-container .card {
+  margin: 10px 10px;
+}
+
+.joke-container .card-header {
+  background-color: #233142 !important;
+  color: white;
+}
+
+.joke-container .card-header span {
+  float: right;
+  font-size: 0.8rem;
+}
+
+.navbar {
+  background-color: #FFDAB9 !important;
+}
+
+.add-joke:hover {
+  background-color: red;
+  transition: 2s;
+}
+
+.button-container .fa {
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+.act-button {
+  height: 1.5rem;
+  width: 4.5rem;
+  margin-left: 15px;
+}
+
+.act-button:hover {
+  cursor: pointer;
+  transition: 2s;
+  background-color: #FFDAB9;
+}
+
+.add-joke-btn {
+  background-color: #233142 !important;
+}
+
+.my-profile-button {
+  height: 2.3rem !important;
+  width: 40% !important;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
